@@ -13,6 +13,7 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
 import { ContentNewGridComponent } from './content-new-grid/content-new-grid.component';
 import { ContentNewDetailComponent } from './content-new-detail/content-new-detail.component';
 import { ContentContactComponent } from './content-contact/content-contact.component';
+import { ContentAboutusComponent } from './content-aboutus/content-aboutus.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ContentContactComponent } from './content-contact/content-contact.compo
     ProductDetailComponent,
     ContentNewGridComponent,
     ContentNewDetailComponent,
-    ContentContactComponent
+    ContentContactComponent,
+    ContentAboutusComponent
   ],
   imports: [
     BrowserModule,
